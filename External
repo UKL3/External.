@@ -6,7 +6,7 @@ local creds = "1542x1 was here sonny"
 if lc:IsInGroup(group) then
       print("@.1542x1")
 else
-      lc:kick("Not In Group")
+      lc:print("Not In Group")
       setclipboard(grouplink)
 end
 
